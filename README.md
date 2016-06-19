@@ -46,6 +46,9 @@ You can influence the state of game like so:
     let row = 0;
     let column = 1;
     
+    // check if a given cell is alive
+    conway.isAlive(row, column);
+    
     // toggle the state of a cell 
     conway.toggleCell(row, column);
     
