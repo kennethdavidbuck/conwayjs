@@ -37,3 +37,29 @@ disable that if you wish:
 ```javascript
        let conway = new Conway(Conway.createBoard({width: 50, height: 50, preFill: false})); 
 ```
+
+You can influence the state of game like so:
+
+```javascript
+    let conway = new Conway();
+    
+    let row = 0;
+    let column = 1;
+    
+    // toggle the state of a cell 
+    conway.toggleCell(row, column);
+    
+    // revive a cell
+    conway.reviveCell(row, column);
+    
+    // kill a cell
+    conway.killCell(row, column);
+```
+
+Print the current board to console:
+
+```javascript
+    let conway = new Conway();
+    
+    conway.print();
+```
