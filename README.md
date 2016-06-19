@@ -31,7 +31,7 @@ the following way:
     let conway = new Conway(Conway.createBoard({width: 50, height: 50}));
 ```
 
-When you create a new game instance will automatically get populated with a random set of living and dead cells. You can
+When you create a new game instance it will automatically get populated with a random set of living and dead cells. You can
 disable that if you wish:
 
 ```javascript
