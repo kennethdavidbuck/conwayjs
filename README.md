@@ -1,8 +1,7 @@
 ## ConwayJS
 
 An ES6 implementation of Conway's Game of Life. Given it's current state, calling ```#next``` will return a new instance
-of the game initialized with the next state. In that sense, the game works mostly as a stream of essentially 
-immutable states.
+of the game initialized with the next state. In that sense, the game works as a stream of essentially immutable states.
 
 ### Install
 ```bash
