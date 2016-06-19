@@ -7,6 +7,6 @@ testrunner.run({
   tests: `${__dirname}/conway-test.js`
 }, function (error) {
   if(error) {
-    console.log(error);
+    throw error;
   }
 });
