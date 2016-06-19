@@ -5,7 +5,7 @@ const DEAD = 0;
 
 class Conway {
 
-  constructor(board = Conway.createBoard({ width: 100, height: 100}), neighboursCache = new Map()) {
+  constructor(board = Conway.createBoard({ width: 100, height: 100, preFill: true}), neighboursCache = new Map()) {
     this._board = board;
     this._neighboursCache = neighboursCache;
   }
