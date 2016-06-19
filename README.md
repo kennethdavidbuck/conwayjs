@@ -23,7 +23,7 @@ of the game initialized with the next state. In that sense, the game works as a 
     conway = conway.next();
 ```
 
-The default current default board size is 100x100. You can pass in an instance of your own if you wish in 
+The default board size is 100x100. You can pass in an instance of your own if you wish in 
 the following way:
 
 ```javascript
