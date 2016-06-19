@@ -1,12 +1,19 @@
 ## ConwayJS
 
-An ES6 implementation of Conway's Game of Life. Given it's current state, calling #next will return a new instance
+An ES6 implementation of Conway's Game of Life. Given it's current state, calling ```#next``` will return a new instance
 of the game initialized with the next state. In that sense, the game works mostly as a stream of essentially 
 immutable states.
+
+### Install
+```bash
+    npm install --save conwayjs
+```
 
 ### Usage
 
 ```javascript
+    const Conway = require('conwayjs');
+
     // create a new game instance.
     let conway = new Conway();
     
