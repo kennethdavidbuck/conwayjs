@@ -3,6 +3,9 @@
 An ES6 implementation of Conway's Game of Life. Given it's current state, calling ```#next``` will return a new instance
 of the game initialized with the next state. In that sense, the game works as a stream of essentially immutable states.
 
+### Example
+[HERE](https://kennethdavidbuck.github.io/conwayjs/) is a basic example of an EmberJS app utilizing ConwayJS
+
 ### Install
 ```bash
     npm install --save conwayjs
@@ -36,4 +39,33 @@ disable that if you wish:
 
 ```javascript
        let conway = new Conway(Conway.createBoard({width: 50, height: 50, preFill: false})); 
+```
+
+You can influence the state of game like so:
+
+```javascript
+    let conway = new Conway();
+    
+    let row = 0;
+    let column = 1;
+    
+    // check if a given cell is alive
+    conway.isAlive(row, column);
+    
+    // toggle the state of a cell 
+    conway.toggleCell(row, column);
+    
+    // revive a cell
+    conway.reviveCell(row, column);
+    
+    // kill a cell
+    conway.killCell(row, column);
+```
+
+Print the current board to console:
+
+```javascript
+    let conway = new Conway();
+    
+    conway.print();
 ```
