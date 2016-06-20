@@ -66965,9 +66965,9 @@ class Conway {
 
 module.exports = Conway;
 
-},{}],"/Users/kennethbuck/Development/ember-addons/ember-conway/tmp/core_object-input_staging-XC6H2H6F.tmp/browserify_stubs.js":[function(require,module,exports){
+},{}],"/Users/kennethbuck/Development/ember-addons/ember-conway/tmp/core_object-input_staging-yjORXtlo.tmp/browserify_stubs.js":[function(require,module,exports){
 define('npm:conwayjs', function(){ return { 'default': require('conwayjs')};})
-},{"conwayjs":"/Users/kennethbuck/Development/ember-addons/ember-conway/node_modules/conwayjs/src/index.js"}]},{},["/Users/kennethbuck/Development/ember-addons/ember-conway/tmp/core_object-input_staging-XC6H2H6F.tmp/browserify_stubs.js"]);
+},{"conwayjs":"/Users/kennethbuck/Development/ember-addons/ember-conway/node_modules/conwayjs/src/index.js"}]},{},["/Users/kennethbuck/Development/ember-addons/ember-conway/tmp/core_object-input_staging-yjORXtlo.tmp/browserify_stubs.js"]);
 
 ;/* globals define */
 define('ember/load-initializers', ['exports', 'ember-load-initializers', 'ember'], function(exports, loadInitializers, Ember) {
