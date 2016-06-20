@@ -1,6 +1,6 @@
 {
   "name": "conwayjs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "An es6 implementation for Conway's Game of Life",
   "main": "src/index.js",
   "directories": {
