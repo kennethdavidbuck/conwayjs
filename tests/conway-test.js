@@ -84,8 +84,8 @@ QUnit.test('returns correct neighbors for board size 1', 1, (assert) => {
 QUnit.test('returns correct neighbors for board size 2', 2, (assert) => {
   let conway = new Conway(Conway.createBoard({width: 2, height: 1}));
 
-  assert.ok(equalNeighbours(conway.neighbours(0, 0), [[1, 0]]));
-  assert.ok(equalNeighbours(conway.neighbours(1, 0), [[0, 0]]));
+  assert.ok(equalNeighbours(conway.neighbours(0, 0), [[0, 1]]));
+  assert.ok(equalNeighbours(conway.neighbours(0, 1), [[0, 0]]));
 });
 
 QUnit.test('returns correct neighbours for middle', 1, (assert) => {
