@@ -209,8 +209,8 @@ class Conway {
    * @param {boolean} preFill Whether or not to randomly pre-fill with DEAD and ALIVE values
    */
   static createBoard({width = 0, height = 0, preFill = true}) {
-    return new Array(height).fill(null).map(() => {
-      return new Array(width).fill(null).map(() => {
+    return new Array(height).fill().map(() => {
+      return new Array(width).fill().map(() => {
           return preFill && Math.random() > .5 ? ALIVE : DEAD;
       });
     });
